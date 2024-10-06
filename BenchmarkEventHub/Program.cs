@@ -21,14 +21,14 @@ class Program
 
         _httpClient = new HttpClient(socketsHandler)
         {
-            Timeout = TimeSpan.FromSeconds(90),
+            Timeout = TimeSpan.FromSeconds(100),
             DefaultRequestVersion = HttpVersion.Version20
         };
         
         Console.WriteLine("Started benchmark event hub");
         
         var tasks = new List<int>();
-        for (var i = 0; i < 10; i++)
+        for (var i = 0; i < 100; i++)
         {
             tasks.Add(i);
         }
@@ -43,7 +43,7 @@ class Program
         await Parallel.ForEachAsync(tasks, options, async (i, token) =>
         {
             var subTasks = new List<Task>();
-            for (var j = 0; j < 10; j++)
+            for (var j = 0; j < 1000; j++)
             {
                 subTasks.Add(SendDataAsync());
             }
