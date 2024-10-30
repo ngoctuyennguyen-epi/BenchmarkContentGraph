@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkEventHub", "BenchmarkEventHub\BenchmarkEventHub.csproj", "{E648691B-0158-44CA-9E0A-A064FFB43C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkCosmosDB", "BenchmarkCosmosDB\BenchmarkCosmosDB.csproj", "{57CB4E46-12C6-4A3C-B4CF-7BB84381800E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDocService", "BenchmarkDocService\BenchmarkDocService.csproj", "{73DB4F27-67C7-4AB6-B83A-E07A9389FD3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E648691B-0158-44CA-9E0A-A064FFB43C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E648691B-0158-44CA-9E0A-A064FFB43C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E648691B-0158-44CA-9E0A-A064FFB43C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E648691B-0158-44CA-9E0A-A064FFB43C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CB4E46-12C6-4A3C-B4CF-7BB84381800E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CB4E46-12C6-4A3C-B4CF-7BB84381800E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CB4E46-12C6-4A3C-B4CF-7BB84381800E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CB4E46-12C6-4A3C-B4CF-7BB84381800E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DB4F27-67C7-4AB6-B83A-E07A9389FD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DB4F27-67C7-4AB6-B83A-E07A9389FD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DB4F27-67C7-4AB6-B83A-E07A9389FD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DB4F27-67C7-4AB6-B83A-E07A9389FD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
